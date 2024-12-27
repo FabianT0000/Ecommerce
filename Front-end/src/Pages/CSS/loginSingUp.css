@@ -1,0 +1,42 @@
+.loginSingUp{
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(180deg,rgb(230, 248, 234),#e1ffea22 90%);
+    padding-top: 60px;
+   
+}
+.loginSingUp-container{
+    width: 580px;
+    height: 550px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border-radius: 30px;
+
+}
+.loginSingUp-container h1{
+    margin: 20px 0px;
+}
+
+.loginSingUp-login{
+    margin-top: 40px;
+}
+.loginSingUp-login span{
+    color:#ff4141;
+    font-weight: 600;
+
+}
+@media (max-width: 1280px){
+    .loginSingUp{
+        padding-top: 50px;;
+    }
+    .loginSingUp-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginSingUp-container h1{
+        margin: 10px 0px;
+    }
+
+}

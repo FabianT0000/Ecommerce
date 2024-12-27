@@ -1,0 +1,32 @@
+#btn hr{
+border:none;
+
+width:80%;
+height:3px;
+border-radius:10px;
+background:red;
+}
+
+#btn:hover  {
+    color: red ;
+    font-size: 17px;
+}
+
+#nav-cart{
+    width: 45px;
+    height: 45px;
+    color: red;
+    display: flex;  
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#nav-cart-count{
+    margin-top: -30px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 20px;
+    width: 40px;
+    justify-content: center;
+}

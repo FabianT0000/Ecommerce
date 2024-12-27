@@ -1,0 +1,10 @@
+.admind{
+    display: flex;
+}
+@media (max-width: 800px){
+    .admind{
+        flex-direction: row;
+        
+        
+    }    
+}
